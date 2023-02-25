@@ -18,6 +18,9 @@ module.exports = {
   },
   plugins: ['react', 'prettier'],
   rules: {
+    'no-console': 'warn',
+    'arrow-body-style': ['error', 'as-needed'],
     'prettier/prettier': 2,
+    '@typescript-eslint/triple-slash-reference': 'off',
   },
 }
